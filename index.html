@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <div class="barra-lateral">
+      <h1>Todo List</h1>
+      <hr />
+      <div class="contenedor-tareas">
+        <p>Nueva Tarea:</p>
+        <div class="agregar-tarea">
+          <input type="text" id="ingresoTareas" />
+          <button onclick="agregar()">Agregar</button>
+        </div>
+        <div class="resumen" id="resumenTareas">
+          <div class="totales">
+            <p>Total: <span id="totalTareas">0</span></p>
+            <p>Realzadas: <span id="tareasCompletadas">0</span></p>
+          </div>
+          <div class="listado">
+            <ul id="listaTareas"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+

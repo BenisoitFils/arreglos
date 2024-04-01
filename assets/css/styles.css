@@ -1,0 +1,50 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.barra-lateral {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resumen {
+  display: flex;
+  flex-direction: row;
+}
+
+.listado {
+  margin-left: 30px;
+}
+
+.agregar-tarea {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.agregar-tarea input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.tareas_completadas {
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+}
+
+.eliminar_icono {
+  color: red;
+}
